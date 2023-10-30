@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(163, 162, 162);
+}
+.container {
+    width: 300px;
+    height: 475px;
+    margin-top: 50px;
+    background: aliceblue;
+    border-radius: 10px;
+}
+
+.img-section {
+    width: 300px;
+    height: 300px; 
+    padding: 15px; 
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+.writing {
+    text-align: center;
+}
+
+.writing h4 {
+    font-size: 1.5em;
+    font-weight: bolder;
+    padding-bottom: 15px;
+}
+
+
+.writing p {
+    font-size: 1.15em;
+    color: grey;
+}
